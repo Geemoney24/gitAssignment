@@ -9,6 +9,8 @@
 #import "ViewController.h"
 
 @implementation ViewController
+@synthesize green;
+@synthesize blue;
 
 - (void)didReceiveMemoryWarning
 {
@@ -26,6 +28,8 @@
 
 - (void)viewDidUnload
 {
+    [self setGreen:nil];
+    [self setBlue:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -61,4 +65,6 @@
     }
 }
 
+- (IBAction)touchEvent:(id)sender {
+}
 @end

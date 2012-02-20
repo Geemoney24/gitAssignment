@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+@class GreenView;
+@class BlueView;
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet GreenView *green;
+@property (weak, nonatomic) IBOutlet BlueView *blue;
+- (IBAction)touchEvent:(id)sender;
 
 @end
