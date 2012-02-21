@@ -28,4 +28,13 @@
 }
 */
 
+-(void) addLabel
+{
+   UILabel *label = [[UILabel alloc] initWithFrame:self.bounds];
+   label.text = @"Full credit";
+   label.backgroundColor = [UIColor clearColor];
+   [self addSubview:label];
+}
+
+
 @end

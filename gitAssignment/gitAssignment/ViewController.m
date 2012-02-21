@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "GreenView.h"
+#import "BlueView.h"
 
 @implementation ViewController
 @synthesize green;
@@ -66,5 +68,6 @@
 }
 
 - (IBAction)touchEvent:(id)sender {
+   [green addLabel];
 }
 @end

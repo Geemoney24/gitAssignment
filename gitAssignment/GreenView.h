@@ -10,4 +10,6 @@
 
 @interface GreenView : UIView
 
+-(void) addLabel;
+
 @end
